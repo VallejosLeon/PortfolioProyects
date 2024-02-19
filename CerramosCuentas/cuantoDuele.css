@@ -1,0 +1,156 @@
+body {
+    background-color: #70c865;
+    margin: 0;
+    padding: 0;
+  }
+
+  .dividir{
+    text-decoration: none;
+    display: flex;
+  justify-content: flex-end;
+  }
+
+  .salir{
+    text-decoration: none;
+    color: red;
+  }
+
+
+  /* Para pantallas pequeñas*/
+  @media (max-width: 600px){
+    .container {
+      max-width: 320px;
+      margin: 0 auto;
+      margin-top: 5px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+  
+    .linea{
+      max-width: 300px;
+      margin-right: 10px;
+    }
+  
+    .codigoQr{
+      height: 60px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+    input{
+      width: 20px;
+    }
+  }
+  
+  /* Estilos para pantallas medianas (de 601px a 900px de ancho) */
+  @media (min-width: 601px) and (max-width: 900px) {
+    .container {
+      max-width: 420px;
+      margin: 0 auto;
+      margin-top: 7px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+  
+    .linea{
+      max-width: 400px
+    }
+  
+    .codigoQr{
+      height: 80px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+  
+    input{
+      width: 40px;
+    }
+  }
+  
+  /* Estilos para pantallas grandes (más de 900px de ancho) */
+  @media (min-width: 901px) {
+    .container {
+      max-width: 520px;
+      margin: 0 auto;
+      margin-top: 10px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+  
+    .linea{
+      max-width: 500px;
+    padding-right: 20px;
+    }
+  
+    .codigoQr{
+      height: 100px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  }
+  
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .campo {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .botonera {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn-brown {
+    padding: 10px 20px; 
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  #sumaTotal {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .contactoLeon {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .contactoLeon a{
+    text-decoration: none;
+  }

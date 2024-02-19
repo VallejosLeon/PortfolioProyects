@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Cerramos Cuentas?</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    
+    <link rel="stylesheet" href="cerramosCuentas.css">
+</head>
+<body>
+    <div class="container">
+      <div class="col-12 text-center">
+        <h2>¿Cerramos Cuentas?</h2>
+        <img class="linea1" src="./IMG/Linea.PNG" alt="---">
+        <h3 class="col-auto">Hola <span id="nombreUsuario"></span>!</h3>
+        <p>Te doy la bienvenida a <span style="color: black;">"¿Cerramos Cuentas?"</span> </p>
+        
+        <h6 class="infoDesplegable">¿De que se trata esta app?</h6>
+        <div class="infoContenido">
+        <p>Se trata de una aplicación destinada a calcular cuentas al momento de salir a comer o hacer una compra.</p>
+        <p>Aquí podrás <span style="color: black;">"Sumar los gastos"</span> para saber de antemano cuanto saldrá el total.</p>
+        <p>También, podrás <span style="color: black;">"Dividir la cuenta"</span>  para saber cuanto le corresponde pagar a cada uno e incluso sacar el calculo de la propina con el porcentaje que elijas dejar.</p>
+      </div>
+    </div>
+    <img class="linea1" src="./IMG/Linea.PNG" alt="---">
+        <h4 class="m-2">¿Que cuenta harás hoy?</h4>
+        <div class="botoncitos">
+        <button class="btn btn-success"><a style="color:  #ffffff;" href="cuantoDuele.html">+ Sumar los gastos </a></button>
+        <button class="btn btn-success"><a style="color:  #ffffff;" href="cuantoDejo.html">% Dividir la cuenta</a></button>
+      </div>
+      <a class="salir" href="./index.html">√ Salir</a>
+      </div>
+      <script src="cerramosCuentas.js"></script>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var nombre = new URLSearchParams(window.location.search).get('nombre');
+          document.getElementById('nombreUsuario').textContent = nombre;
+        });
+      </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="cerramosCuentas.css">
+    <title>¿Cuanto dejo?</title>
+</head>
+<body>
+    <div class="container">
+        <a class="sumar" href="cuantoDuele.html">Ir a sumar →</a>
+        <h1 class="m-1">¿Cuanto dejo?</h1>
+        <div class="campo">
+        <label for="totalCuenta">Total de la cuenta:</label>
+        <input type="number" id="totalCuenta">
+        <label for="numPersonas">Número de personas:</label>
+        <input type="number" id="numPersonas">
+        <label for="porcentajeProp">Porcentaje de propina: </label>
+        <input type="number" id="porcentajeProp">
+    </div>
+        <button class="btn-brown" onclick="calculateTip()">Calcular</button>
+        <img class="linea1" src="IMG/Linea.PNG" alt="linea">
+            <div class="resultado">
+                <div id="totalProp"></div>
+                <div id="totalPorPerson"></div>
+            </div>
+            <img class="codigoQr1" src="IMG/QrLink.PNG" alt="LinkedIn">
+            <p class="contactoLeon"><a href="https://www.linkedin.com/in/leon-vallejos/">León Ramiro Vallejos</a></p>
+            <a class="salir" href="./index.html">√ Salir</a>
+        </div>
+
+    <script src="cerramosCuentas.js"></script>
+</body>
+</html>

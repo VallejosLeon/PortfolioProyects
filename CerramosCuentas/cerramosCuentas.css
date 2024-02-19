@@ -1,0 +1,190 @@
+body{
+  background-color: #70c865;
+  margin: 0;
+  padding: 0;
+}
+
+.btnContinuar{
+  display: flex;
+  justify-content: end; 
+}
+
+.botoncitos{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-success {
+  margin: 10px;
+}
+
+h4{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.sumar{
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 2px;
+  margin-top: -2px;
+}
+
+.salir{
+  text-decoration: none;
+  color: red;
+}
+
+/* INFO DESPLEGABLE */
+.infoContenido {
+  color: #333;
+  display: none;
+}
+
+.infoDesplegable {
+  cursor: pointer;
+}
+
+.infoDesplegable::after {
+  content: "+";
+  float: right;
+}
+
+.infoDesplegable.open::after {
+  content: "-";
+}
+
+
+/* CUANTO DEJO */
+/* Para pantallas pequeñas*/
+@media (max-width: 600px) { 
+
+.container {
+    max-width: 230px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.linea1{
+  max-width: 210px;
+  padding-right: 15px;
+}
+
+.codigoQr1{
+    height: 60px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
+  
+  /* Estilos para pantallas medianas */
+  @media (min-width: 601px) and (max-width: 900px) {
+
+      .container {
+        max-width: 280px;
+        margin: 0 auto;
+        margin-top: 10px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
+    .linea1{
+      max-width: 260px;
+      padding-right: 15px;
+    }
+    
+    .codigoQr1{
+        height: 80px;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  
+  /* Para pantallas grandes */
+@media (min-width: 901px) {
+  .container {
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  .linea1{
+    max-width: 330px;
+    padding-right: 15px;
+  }
+  
+  .codigoQr1{
+      height: 100px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+h1{
+  text-align: center;
+  color: #333;
+}
+
+.campo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.resultado{
+  text-align: center;
+  margin: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  }
+
+  .btn-brown {
+    margin-top: 10px;
+    padding: 10px 20px; 
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  input{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .contactoLeon {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .contactoLeon a{
+    text-decoration: none;
+  }

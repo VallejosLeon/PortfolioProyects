@@ -5,17 +5,17 @@ body{
 }
 
 .tuNombre{
-  flex: 1;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .nombreUser{
-
+  flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btnContinuar{
@@ -81,10 +81,6 @@ a{
 /* CUANTO DEJO */
 /* Para pantallas pequeñas*/
 @media (max-width: 600px) { 
-
-.tuNombre{
-  max-width: 150px;
-}
 
 .container {
     max-width: 260px;

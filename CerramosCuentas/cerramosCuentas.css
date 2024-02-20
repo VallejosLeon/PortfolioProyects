@@ -4,6 +4,10 @@ body{
   padding: 0;
 }
 
+.tuNombre{
+  text-align: center;
+}
+
 .btnContinuar{
   display: flex;
   justify-content: end; 
@@ -69,7 +73,7 @@ a{
 @media (max-width: 600px) { 
 
 .container {
-    max-width: 230px;
+    max-width: 260px;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -80,7 +84,7 @@ a{
 }
 
 .linea1{
-  max-width: 210px;
+  max-width: 230px;
   padding-right: 15px;
 }
 
@@ -97,7 +101,7 @@ a{
   @media (min-width: 601px) and (max-width: 900px) {
 
       .container {
-        max-width: 280px;
+        max-width: 300px;
         margin: 0 auto;
         margin-top: 10px;
         padding: 20px;
@@ -107,7 +111,7 @@ a{
     }
 
     .linea1{
-      max-width: 260px;
+      max-width: 270px;
       padding-right: 15px;
     }
     
@@ -123,7 +127,7 @@ a{
   /* Para pantallas grandes */
 @media (min-width: 901px) {
   .container {
-    max-width: 350px;
+    max-width: 400px;
     margin: 0 auto;
     margin-top: 10px;
     padding: 20px;
@@ -133,7 +137,7 @@ a{
   }
 
   .linea1{
-    max-width: 330px;
+    max-width: 380px;
     padding-right: 15px;
   }
   

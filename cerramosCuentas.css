@@ -18,6 +18,16 @@ body{
   align-items: center;
 }
 
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container input {
+  padding: 10px;
+}
+
 .btnContinuar{
   display: flex;
   justify-content: end; 
@@ -148,6 +158,10 @@ a{
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+  }
+
+  .nombreUser{
+    max-width: 350px;
   }
 
   .linea1{

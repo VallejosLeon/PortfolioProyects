@@ -93,6 +93,10 @@ a{
     border-radius: 10px;
 }
 
+.nombreUser{
+  max-width: 200px;
+}
+
 .linea1{
   max-width: 230px;
   padding-right: 15px;

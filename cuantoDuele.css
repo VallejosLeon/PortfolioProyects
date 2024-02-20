@@ -42,6 +42,7 @@ body {
   
     input{
       width: 20px;
+      
     }
   }
   
@@ -71,6 +72,7 @@ body {
   
     input{
       width: 40px;
+      border-bottom: 1px solid #404243;
     }
   }
   
@@ -114,13 +116,15 @@ body {
   input[type="number"] {
     flex: 1;
     padding: 10px;
-    border: none;
+    border: none;    
     border-radius: 5px;
+    border-bottom: 1px solid #969fa3;    
+    margin:0px 10px 0px 0px;
   }
   
   .botonera {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 20px;
   }
   

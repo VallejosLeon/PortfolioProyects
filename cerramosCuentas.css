@@ -30,7 +30,7 @@ body{
 
 .btnContinuar{
   display: flex;
-  justify-content: end; 
+  justify-content: center; 
 }
 
 .botoncitos{
@@ -211,6 +211,7 @@ h1{
     flex: 1;
     padding: 10px;
     border: none;
+    border-bottom: 1px solid #969fa3;    
     border-radius: 5px;
   }
 
@@ -223,3 +224,8 @@ h1{
   .contactoLeon a{
     text-decoration: none;
   }
+
+  .btnCalcular{
+    display: flex;
+    justify-content: center;
+  }  

@@ -86,7 +86,7 @@ function agregarCampo() {
 
   var productoInput = document.createElement('input');
   productoInput.type = 'text';
-  productoInput.placeholder = 'Persona o Producto';
+  productoInput.placeholder = 'Producto';
   campo.appendChild(productoInput);
 
   var precioInput = document.createElement('input');
